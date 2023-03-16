@@ -1,0 +1,43 @@
+.about-section {
+    padding: 94px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-section__title {
+    font-weight: var(--big-font-weight);
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .about-section__details {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-grey-color);
+  }
+  
+  .about-section__list {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-section__cards {
+    background: var(--light-grey-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+  }
+  
+  .about-section__cards svg {
+    margin-top: 25px;
+  }
+  
