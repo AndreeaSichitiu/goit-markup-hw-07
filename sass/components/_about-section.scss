@@ -1,10 +1,15 @@
 .about-section {
-    padding: 94px 0;
+  padding: 94px 0;
+  display: flex;
+  justify-content: space-between;
+
+  &__list {
+    width: 270px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
-  
-  .about-section__title {
+
+  &__title {
     font-weight: var(--big-font-weight);
     font-size: 14px;
     line-height: 16px;
@@ -13,21 +18,15 @@
     text-align: left;
     margin-bottom: 10px;
   }
-  
-  .about-section__details {
+
+  &__details {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--main-grey-color);
   }
-  
-  .about-section__list {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .about-section__cards {
+
+  &__cards {
     background: var(--light-grey-color);
     border-radius: 4px;
     margin-bottom: 30px;
@@ -35,9 +34,9 @@
     justify-content: center;
     width: 270px;
     height: 120px;
+
+    & svg {
+      margin-top: 25px;
+    }
   }
-  
-  .about-section__cards svg {
-    margin-top: 25px;
-  }
-  
+}
