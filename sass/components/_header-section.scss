@@ -15,6 +15,7 @@
     display: flex;
     gap: 10px;
     color: var(--main-grey-color);
+    text-decoration: none;
 
     .header-contact__icons {
       transition: fill 250ms var(--main-transition-timing-function);
